@@ -1,13 +1,12 @@
 <?php
     $email = $_POST['email'];
-    $password = $_POST['password'];
-    
-    $url = getenv('mysql://l8okalfu9st1ww21:grxjo2kvj1t5hgp6@y2w3wxldca8enczv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/pewz6bnlb8n8aiag');
+        
+    $url = getenv('mysql://bdbfa2b2f48496:f8434cfd@us-cdbr-east-02.cleardb.com/heroku_db670458dcc6813?reconnect=true');
     $dbparts = parse_url($url);
     
-    $hostname = $dbparts['y2w3wxldca8enczv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'];
-    $username = $dbparts['l8okalfu9st1ww21'];
-    $passcode = $dbparts['grxjo2kvj1t5hgp6'];
+    $hostname = $dbparts['http://us-cdbr-east-02.cleardb.com/'];
+    $username = $dbparts['bdbfa2b2f48496'];
+    $passcode = $dbparts['f8434cfd'];
     $database = ltrim($dbparts['pewz6bnlb8n8aiag'], '/');
 
     // connecting to the database
@@ -17,8 +16,8 @@
         die('Connection Failed : '.$conn->connect_error);
     }else{
         echo "connection established";
-        $stmt = $conn->prepare('insert into registration(email, password) values(?, ?)');
-        $stmt->bind_param('ss', $email, $password);
+        $stmt = $conn->prepare('insert into mailing-list(email) values(?)');
+        $stmt->bind_param('s', $email);
         $stmt->execute();
         echo "registration succesful";
         $stmt->close();
