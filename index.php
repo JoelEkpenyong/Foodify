@@ -70,7 +70,7 @@
                             <input type="email" name="email" placeholder="Your Email address" required>
                         </div>
                         <div class="col-3">
-                            <button type="submit" class="btn">Subscribe</button>
+                            <button type="submit" name="submit" class="btn">Subscribe</button>
                         </div>
                     </form>
                     <?php
