@@ -2,7 +2,8 @@
     $email = $_POST['email'];
 
     // database information
-    $url = parse_url(getenv('mysql://bdbfa2b2f48496:f8434cfd@us-cdbr-east-02.cleardb.com/heroku_db670458dcc6813?reconnect=true'));
+//     $url = parse_url(getenv('mysql://bdbfa2b2f48496:f8434cfd@us-cdbr-east-02.cleardb.com/heroku_db670458dcc6813?reconnect=true'));
+
     $server = "us-cdbr-east-02.cleardb.com";
     $username = "bdbfa2b2f48496";
     $password = "f8434cfd";
