@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,6 +73,16 @@
                             <button type="submit" class="btn">Subscribe</button>
                         </div>
                     </form>
+                    <?php
+                        if(isset($_SESSION["error"])){
+                        $error = $_SESSION["error"];
+                        echo "<div class='text-center alert alert-danger p-1 col-md-5 mx-auto mt-2 mt-md-0' role='alert'>$error</div>";
+                        }
+                        if(isset($_SESSION["success"])){
+                        $success = $_SESSION["success"];
+                        echo "<div class='text-center alert alert-success p-1 col-md-5 mx-auto mt-2 mt-md-0' role='alert'>$success</div>";
+                        }
+                    ?>  
                 </div>
             </div>
             <div class="col-5 px-0 img-wrapper d-flex justify-content-end align-items-center">
@@ -179,3 +193,12 @@
     <script src="./assets/js/app.js"></script>
 </body>
 </html>
+
+<?php
+    if(isset($_SESSION['error'])){
+        unset($_SESSION['error']);
+    }
+    if(isset($_SESSION['success'])){
+        unset($_SESSION['success']);
+    }
+?>
