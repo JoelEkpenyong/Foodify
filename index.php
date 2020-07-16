@@ -24,7 +24,7 @@
 <body>
     <!-- loader -->
     <div id="loader-container">
-        <h3 class="loader-text">Cooking in progress . . .</h3>
+        <h3 class="loader-text">a CHEF on your mobile . . .</h3>
         <div class="loader">
             <div></div>
             <div></div>
@@ -101,8 +101,8 @@
                 </div>
                 <div class="col-6 px-0 px-md-2 d-flex justify-content-center align-items-center">
                     <div class="text-wrapper">
-                        <h3 class="pb-3">Foodify is here to make cooking fun</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo auctor mauris diam eu felis cras. Leo scelerisque amet, nibh molestie. Proin sed pretium lacinia facilisis at cursus semper ullamcorper. Pellentesque senectus volutpat sed mi. </p>
+                        <h3 class="pb-3">Get access to as many matching recipes</h3>
+                        <p>Ever wondered what meals you could make with the foodstuff you have handy? Foodify uses AI recognition of ingredients to give you the best possible recipes for making your next great meal.</p>
                     </div>
                 </div>
             </div> 
@@ -116,8 +116,9 @@
                 </div>
                 <div class="col-6 px-0 px-md-2 order-1 d-flex justify-content-center align-items-center">
                     <div class="text-wrapper left">
-                        <h3 class="pb-3">Foodify is here to make cooking fun</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo auctor mauris diam eu felis cras. Leo scelerisque amet, nibh molestie. Proin sed pretium lacinia facilisis at cursus semper ullamcorper. Pellentesque senectus volutpat sed mi. </p>
+                        <h3 class="pb-3">Leave your taste buds wanting more </h3>
+                        <p>No matter the meal, we always ensure there is room to accomodate what your taste buds crave. Spicy? Sweet? Hot? Delicious? 
+                            Foodify recipes gives you freedom to choose.</p>
                     </div>
                 </div>
             </div>
@@ -131,8 +132,8 @@
                 </div>
                 <div class="col-6 px-0 px-md-2 d-flex justify-content-center align-items-center">
                     <div class="text-wrapper">
-                        <h3 class="pb-3">Foodify is here to make cooking fun</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo auctor mauris diam eu felis cras. Leo scelerisque amet, nibh molestie. Proin sed pretium lacinia facilisis at cursus semper ullamcorper. Pellentesque senectus volutpat sed mi. </p>
+                        <h3 class="pb-3">Recreate those tasty meals anytime</h3>
+                        <p>Foodify lets you save recipes you have grabbed so you can always recreate them whenever you want. Are you at a party and found out a new meal, we let you recreate those delicacies for you and your family.</p>
                     </div>
                 </div>
             </div>
@@ -146,8 +147,8 @@
                 </div>
                 <div class="col-6 px-0 px-md-2 order-1 d-flex justify-content-center align-items-center">
                     <div class="text-wrapper left">
-                        <h3 class="pb-3">Foodify is here to make cooking fun</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo auctor mauris diam eu felis cras. Leo scelerisque amet, nibh molestie. Proin sed pretium lacinia facilisis at cursus semper ullamcorper. Pellentesque senectus volutpat sed mi. </p>
+                        <h3 class="pb-3">Stay and up to date with foodie trends</h3>
+                        <p>In addition to the meals you grabbed, we also let you in on the hottestt and in-demand meals on our platform. Check our top picks for every week and get inspired for your next trip to the kitchen.</p>
                     </div>
                 </div>
             </div>
