@@ -2,9 +2,9 @@
     session_start();
     // Config for heroku clearDB database
     $db_host = 'us-cdbr-east-02.cleardb.com';
-    $db_name = 'heroku_db670458dcc6813';
-    $db_user = "bdbfa2b2f48496";
-    $db_password = "f8434cfd";
+    $db_name = 'heroku_5b84bcd2b902147';
+    $db_user = "bf3890888aa279";
+    $db_password = "9b8e5fa0";
     $db_tablename = "mailing-list";
     // Connect to the sql database
     $db = mysqli_connect($db_host, $db_user, $db_password, $db_name);
