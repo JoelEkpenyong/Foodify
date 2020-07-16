@@ -1,0 +1,88 @@
+/* media queries */
+@media screen and (max-width:1140px){
+    html{
+        font-size: 14px;
+    }
+    #footer img{
+        width: 50%;
+    }
+}
+@media screen and (max-width:1000px){
+    html{
+        font-size: 11px;
+    }
+    .text-wrapper {
+        padding: 0;
+    }
+    .text-wrapper h3{
+        font-size: 2.25rem;
+    }
+    .text-wrapper p{
+        font-size: 1.2rem;
+    }
+    .text-wrapper.left{
+        padding: 0;
+    }
+    .phone{
+        width: 50%;
+    }
+}
+@media screen and (max-width:768px){
+    html{
+        font-size: 16px;
+    }
+    #hero{
+        padding: 3rem;
+    }
+    .navbar{
+        padding: 1.2rem 3rem;
+    }
+    .phone{
+        width: initial;
+    }
+    section{
+        padding: 7rem 0;
+    }
+    #footer img{
+        width: 35%;
+    }
+}
+@media screen and (max-width:700px){
+    html{
+        font-size: 15px;
+    }
+    #footer .coming-soon p{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:540px){
+    html{
+        font-size: 13px;
+    }
+    .phone{
+        width: 90%;
+    }
+}
+@media screen and (max-width:480px){
+   .text-wrapper h3{
+        font-size: 2rem;
+   }
+   .text-wrapper p{
+        font-size: 1rem;
+   }
+   .navbar{
+       padding: 1.2rem 2rem;
+   }
+   #hero{
+       padding: 3rem 2rem;
+   }
+   .loader-text{
+       font-size: 2rem;
+   }
+}
+@media screen and (max-width:350px){
+    html{
+        font-size: 10px;
+    }
+}
+

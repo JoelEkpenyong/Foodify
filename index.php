@@ -18,6 +18,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="./assets/css/loader.css">
     <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>Foodify</title>
 </head>
 <body>
@@ -38,9 +39,9 @@
         <nav class="navbar h-100">
             <a class="navbar-brand" href="#">FOODIFY</a>
             <nav class="nav">
-                <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
-                <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="nav-link px-2 px-sm-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="nav-link px-2 px-sm-3" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="nav-link px-2 px-sm-3" href="#"><i class="fab fa-twitter"></i></a>
             </nav>
     </header>
     <!-- header ends -->
@@ -48,13 +49,13 @@
     <!-- hero section -->
     <section id="hero" class="">
         <div class="row h-100 boxed">
-            <div id="hero-text" class="text-field px-0 pr-4 col-7 d-flex flex-column justify-content-center align-items-start">
+            <div id="hero-text" class="text-field pb-5 pb-md-0 px-0 pr-4 col-12 col-md-7 d-flex flex-column justify-content-center align-items-start">
                 <div>
                     <h2 class="hero-header pb-2">Name any meal in seconds </h2>
                     <p>Identify meals around you, get awesome recipes and find out possible dishes with available food items.</p>
                     <p>All in one App, a CHEF right on your mobile</p>
                 </div>
-                <div class="countdown w-75 pt-3">
+                <div class="countdown w-100 w-sm-75 pt-3">
                     <p>Coming soon!</p>
                     <div class="timer row px-0 d-flex text-center">
                         <div id="days" class="col-3 time py-3 align-middle">45<br> <span>days</span></div>
@@ -65,12 +66,12 @@
                 </div>
                 <div class="notification w-100 pt-4">
                     <p>Be the first to know when we launch!</p>
-                    <form action="form.php" method="POST" id="form" class="row w-100">
-                        <div class="col-6 pr-0">
+                    <form action="form.php" method="POST" id="form" class="row w-100 m-0 mr-sm-2">
+                        <div class="col-7 col-sm-6 pl-0 pl-md-2 pr-0">
                             <input type="email" name="email" placeholder="Your Email address" required>
                         </div>
-                        <div class="col-3">
-                            <button type="submit" name="submit" class="btn">Subscribe</button>
+                        <div class="col-5 col-sm-3">
+                            <button type="submit" class="btn">Subscribe</button>
                         </div>
                     </form>
                     <?php
@@ -82,10 +83,10 @@
                         $success = $_SESSION["success"];
                         echo "<div class='text-center alert alert-success p-1 col-md-5 mx-auto mt-2 mt-md-0' role='alert'>$success</div>";
                         }
-                    ?>  
+                    ?>
                 </div>
             </div>
-            <div class="col-5 px-0 img-wrapper d-flex justify-content-end align-items-center">
+            <div class="col-12 col-md-5 pt-5 pt-md-0 px-0 img-wrapper d-flex justify-content-center justify-content-md-end align-items-center">
                 <img id="hero-img" class="phone-1 img-fluid" src="./assets/imgs/svgs/Group 150.svg" alt="" >
             </div>
         </div>
@@ -95,10 +96,10 @@
     <section id="sec-1">
         <div class="img-wrapper d-flex" style="background-image: url(./assets/imgs/img-5.png);">
             <div class="boxed row">
-                <div class="col-6 d-flex justify-content-center">
+                <div class="col-6 px-0 px-md-2 d-flex justify-content-start justify-content-md-center">
                     <img class="phone" src="./assets/imgs/svgs/Group 151.svg" alt="" srcset="" data-aos="fade-left" data-aos-easing="ease-in-out-sine" data-aos-once="true">
                 </div>
-                <div class="col-6 d-flex justify-content-center align-items-center">
+                <div class="col-6 px-0 px-md-2 d-flex justify-content-center align-items-center">
                     <div class="text-wrapper">
                         <h3 class="pb-3">Foodify is here to make cooking fun</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo auctor mauris diam eu felis cras. Leo scelerisque amet, nibh molestie. Proin sed pretium lacinia facilisis at cursus semper ullamcorper. Pellentesque senectus volutpat sed mi. </p>
@@ -110,10 +111,10 @@
     <section id="sec-2">
         <div class="img-wrapper d-flex" style="background-image: url(./assets/imgs/img-2.png);">
             <div class="boxed row">
-                <div class="col-6 order-2 d-flex justify-content-center">
+                <div class="col-6 order-2 px-0 px-md-2 d-flex justify-content-end justify-content-md-center">
                     <img class="phone" src="./assets/imgs/svgs/Group 144.svg" alt="" srcset="" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-once="true">
                 </div>
-                <div class="col-6 order-1 d-flex justify-content-center align-items-center">
+                <div class="col-6 px-0 px-md-2 order-1 d-flex justify-content-center align-items-center">
                     <div class="text-wrapper left">
                         <h3 class="pb-3">Foodify is here to make cooking fun</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo auctor mauris diam eu felis cras. Leo scelerisque amet, nibh molestie. Proin sed pretium lacinia facilisis at cursus semper ullamcorper. Pellentesque senectus volutpat sed mi. </p>
@@ -125,10 +126,10 @@
     <section id="sec-3">
         <div class="img-wrapper d-flex" style="background-image: url(./assets/imgs/img-3.png);">
             <div class="boxed row">
-                <div class="col-6 d-flex justify-content-center">
+                <div class="col-6 px-0 px-md-2 d-flex justify-content-start justify-content-md-center">
                     <img class="phone" src="./assets/imgs/svgs/Group 149.svg" alt="" srcset="" data-aos="fade-left" data-aos-easing="ease-in-out-sine" data-aos-once="true">
                 </div>
-                <div class="col-6 d-flex justify-content-center align-items-center">
+                <div class="col-6 px-0 px-md-2 d-flex justify-content-center align-items-center">
                     <div class="text-wrapper">
                         <h3 class="pb-3">Foodify is here to make cooking fun</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo auctor mauris diam eu felis cras. Leo scelerisque amet, nibh molestie. Proin sed pretium lacinia facilisis at cursus semper ullamcorper. Pellentesque senectus volutpat sed mi. </p>
@@ -140,10 +141,10 @@
     <section id="sec-4">
         <div class="img-wrapper d-flex" style="background-image: url(./assets/imgs/img-4.png);">
             <div class="boxed row">
-                <div class="col-6 order-2 d-flex justify-content-center">
+                <div class="col-6 order-2 px-0 px-md-2 d-flex justify-content-end justify-content-md-center">
                     <img class="phone" src="./assets/imgs/svgs/Group 148.svg" alt="" srcset="" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-once="true">
                 </div>
-                <div class="col-6 order-1 d-flex justify-content-center align-items-center">
+                <div class="col-6 px-0 px-md-2 order-1 d-flex justify-content-center align-items-center">
                     <div class="text-wrapper left">
                         <h3 class="pb-3">Foodify is here to make cooking fun</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo auctor mauris diam eu felis cras. Leo scelerisque amet, nibh molestie. Proin sed pretium lacinia facilisis at cursus semper ullamcorper. Pellentesque senectus volutpat sed mi. </p>
@@ -157,13 +158,13 @@
     <footer id="footer">
         <div class="boxed">
             <h2 class="p-5 text-center">Get the most out of every meal!</h2>
-            <div class="row text-center w-75 mx-auto pb-5">
-                <div class="col-6 d-flex flex-column align-items-center">
+            <div class="row text-center footer-ill mx-auto pb-5">
+                <div class="col-12 col-md-6 d-flex flex-column align-items-center">
                     <img src="./assets/imgs/svgs/footer-1.svg" alt="">
                     <h3 class="py-3">Put names to a meals in no time</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo auctor mauris diam eu felis cras.</p>
                 </div>
-                <div class="col-6 d-flex flex-column align-items-center">
+                <div class="col-12 col-md-6 pt-5 pt-md-0 d-flex flex-column align-items-center">
                     <img src="./assets/imgs/svgs/footer-2.svg" alt="">
                     <h3 class="py-3">Whip up even greater meals</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo auctor mauris diam eu felis cras.</p>

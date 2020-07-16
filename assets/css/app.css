@@ -169,6 +169,9 @@ section{
         0 0px 22px rgba(0, 0, 0, 0.17)
     ;
 }
+.footer-ill{
+    width: 80%;
+}
 .coming-soon{
     background-color: var(--primary);
     
