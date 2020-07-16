@@ -56,12 +56,12 @@
                 </div>
                 <div class="countdown w-75 pt-3">
                     <p>Coming soon!</p>
-                    <ul class="timer px-0 d-flex text-center">
-                        <li id="days" class="time pr-5 py-3 align-middle">45<br> <span>days</span></li>
-                        <li id="hours" class="time px-5 py-3 align-middle">12<br> <span>hours</span></li>
-                        <li id="minutes" class="time px-5 py-3 align-middle">59<br> <span>minutes</span></li>
-                        <li id="seconds" class="time px-5 py-3 align-middle">36<br> <span>seconds</span></li>
-                    </ul>
+                    <div class="timer row px-0 d-flex text-center">
+                        <div id="days" class="col-3 time py-3 align-middle">45<br> <span>days</span></div>
+                        <div id="hours" class="col-3 time py-3 align-middle">12<br> <span>hours</span></div>
+                        <div id="minutes" class="col-3 time py-3 align-middle">59<br> <span>minutes</span></div>
+                        <div id="seconds" class="col-3 time py-3 align-middle">36<br> <span>seconds</span></div>
+                    </div>
                 </div>
                 <div class="notification w-100 pt-4">
                     <p>Be the first to know when we launch!</p>

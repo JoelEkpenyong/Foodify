@@ -45,7 +45,7 @@ section{
 .img-wrapper{
     position: relative;
     width: 100%;
-    height: 30rem;
+    height: 100%;
     background-position: center;
     background-size: cover;
 }
