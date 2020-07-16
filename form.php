@@ -7,7 +7,7 @@
     $hostname = $dbparts['http://us-cdbr-east-02.cleardb.com/'];
     $username = $dbparts['bdbfa2b2f48496'];
     $passcode = $dbparts['f8434cfd'];
-    $database = ltrim($dbparts['pewz6bnlb8n8aiag'], '/');
+    $database = ltrim($dbparts['heroku_db670458dcc6813']);
 
     // connecting to the database
 

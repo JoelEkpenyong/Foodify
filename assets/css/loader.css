@@ -1,4 +1,6 @@
 /* loader styles */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 #loader-container{
     background: #FF5046;
     position: fixed;
@@ -10,10 +12,34 @@
 	margin: 0;
     padding: 0;
 }
+.loader-text{
+    position: relative;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -37%);
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 3.125rem;
+    animation: loading 2s forwards;
+    /* transform: scale(); */
+}
 .hidden{
     animation: fade 1s;
     animation-fill-mode: forwards;
 
+}
+@keyframes loading{
+    0%{
+        opacity: 0;
+        transform: scale(.5);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+        top: 37%;
+        left: 50%;
+        transform: translate(-50%, -37%);
+        }
 }
 @keyframes fade{
     100%{
