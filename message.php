@@ -17,14 +17,15 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- custom css -->
     <link rel="stylesheet" href="./assets/css/message.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>Foodify</title>
 </head>
 <body>
 
-    <div class="container d-flex flex-column justify-content-center align-items-center">
-        <h2>Your Email has been registered !</h2>
-        <h3>You'll get notified two days before launch !</h3>
+    <div class="container my-auto py-5 d-flex flex-column justify-content-center align-items-center text-center">
+        <a href="index.php" class="align-self-start pb-5"><i class="fas fa-arrow-left px-3"></i><span class="d-none d-sm-inline">Back to Homepage</span></a>
+        <img src="./assets/imgs/svgs/undraw_order_confirmed_aaw7 1.svg" alt="">
+        <h2 class="pb-3 pb-sm-0">Email subscription Successful!</h2>
+        <h3>We can’t wait to have you use Foodify </h3>
     </div>
 
     

@@ -163,17 +163,17 @@
                 <div class="col-12 col-md-6 d-flex flex-column align-items-center">
                     <img src="./assets/imgs/svgs/footer-1.svg" alt="">
                     <h3 class="py-3">Put names to a meals in no time</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo auctor mauris diam eu felis cras.</p>
+                    <p>Using our super fast food recognition software, we help you identify meals in seconds and give you a free recipe</p>
                 </div>
                 <div class="col-12 col-md-6 pt-5 pt-md-0 d-flex flex-column align-items-center">
                     <img src="./assets/imgs/svgs/footer-2.svg" alt="">
                     <h3 class="py-3">Whip up even greater meals</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo auctor mauris diam eu felis cras.</p>
+                    <p>Unsure what meal to make of the foodstuff available for you? The meal maker feature puts brilliant ideas in mind.</p>
                 </div>
             </div>
         </div>
             <div class="coming-soon py-5">
-                <p class="m-0 text-center">Coming soon for Android and iOS devices</p>
+                <p class="mx-auto mx-sm-0 w-75 w-sm-100 m-0 text-center">Coming soon for Android and iOS devices</p>
             </div>
             <div class="footer-nav pt-3 pb-0">
                 <nav class="nav justify-content-center pb-2">

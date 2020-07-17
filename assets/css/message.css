@@ -1,0 +1,40 @@
+.container{
+    height: 100vh;
+    color: #ff5046;
+    font-family: 'Lato', sans-serif;
+}
+.container h3,
+.container h2{
+    font-weight: 300;
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+}
+.container a{
+    text-decoration: none;
+    color: #ff5046;
+    font-weight: 700;
+    font-size: 1.5625rem;
+    /* line-height: 0; */
+}
+.container i{
+    color: #ff5046;
+}
+@media screen and (max-width:800px){
+    .container h3,
+    .container h2{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:500px){
+    .container h3,
+    .container h2{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .container img{
+        width: 80%;
+    }
+    html{
+        font-size: 10px;
+    }
+}
