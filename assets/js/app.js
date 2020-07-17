@@ -1,14 +1,14 @@
 // loader
-window.addEventListener('load', function(){
-    setTimeout( function(){
-        document.querySelector('#loader-container').classList.add('hidden')
-        document.querySelector('.loader').classList.add('hidden')
-    }, 1000)
+// window.addEventListener('load', function(){
+//     setTimeout( function(){
+//         document.querySelector('#loader-container').classList.add('hidden')
+//         document.querySelector('.loader').classList.add('hidden')
+//     }, 1000)
 
-    document.querySelector('#hero-text').classList.add('animate__animated', 'animate__fadeIn', 'animate__delay-3s')
-    document.querySelector('#hero-img').classList.add('animate__animated', 'animate__slideInDown', 'animate__slower')
+//     document.querySelector('#hero-text').classList.add('animate__animated', 'animate__fadeIn', 'animate__delay-3s')
+//     document.querySelector('#hero-img').classList.add('animate__animated', 'animate__slideInDown', 'animate__slower')
     
-})
+// })
 
 // countdown timer
 

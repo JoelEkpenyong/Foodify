@@ -1,4 +1,4 @@
-loader styles
+/* loader styles
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 #loader-container{
@@ -21,7 +21,7 @@ loader styles
     font-family: 'Indie Flower', cursive;
     font-size: 3.125rem;
     animation: loading 2s forwards;
-    /* transform: scale(); */
+    
 }
 .hidden{
     animation: fade 1s;
@@ -110,4 +110,4 @@ loader styles
         float: none;
     }
 }
-
+ */
