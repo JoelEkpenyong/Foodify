@@ -70,7 +70,7 @@
                         <div class="col-7 col-sm-6 pl-0 pl-md-2 pr-0">
                             <input type="email" name="email" id="email" placeholder="Your Email address" required>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 mr-0 pr-0">
                             <button type="submit" name="submit" class="btn">Subscribe</button>
                         </div>
                     </form>
