@@ -2,10 +2,11 @@
     session_start();
     // Config for heroku clearDB database
     $db_host = 'us-cdbr-east-02.cleardb.com';
-    $db_name = 'heroku_5b84bcd2b902147';
-    $db_user = "bf3890888aa279";
-    $db_password = "9b8e5fa0";
-    $db_tablename = "mailing-list";
+    $db_name = 'heroku_2cb65201e294de2';
+    $db_user = "ba254f608d2b94";
+    $db_password = "8c96f689";
+    
+
     // Connect to the sql database
   $db = mysqli_connect($db_host, $db_user, $db_password, $db_name);
   // Function to check if email is valid
@@ -24,7 +25,7 @@
       die();
     }
     // Retrieve any email in db that matches $email
-    $sql_e = "SELECT * FROM mailing-list WHERE email='$email'";
+    $sql_e = "SELECT * FROM foodify WHERE email='$email'";
     $res_e = mysqli_query($db, $sql_e);
     // Check if email exists
     if(mysqli_num_rows($res_e) > 0){
@@ -32,7 +33,7 @@
       header("Location:index.php");
   	} else {
       // Insert new email inside DB
-      $query = "INSERT INTO mailing-list(email)values('$email')";
+      $query = "INSERT INTO foodify(email)values('$email')";
       $result = mysqli_query($db, $query);
       if ($result == true) {
         $_SESSION["success"] = "Registered successfully";
