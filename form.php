@@ -37,7 +37,7 @@
       $result = mysqli_query($db, $query);
       if ($result == true) {
         $_SESSION["success"] = "Registered successfully";
-        header("Location:index.php");
+        header("Location:message.php");
         exit;
         die();
       } else {

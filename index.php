@@ -70,18 +70,18 @@
                         <div class="col-7 col-sm-6 pl-0 pl-md-2 pr-0">
                             <input type="email" name="email" id="email" placeholder="Your Email address" required>
                         </div>
-                        <div class="col-5 col-sm-3">
+                        <div class="col-4">
                             <button type="submit" name="submit" class="btn">Subscribe</button>
                         </div>
                     </form>
                     <?php
                         if(isset($_SESSION["error"])){
                         $error = $_SESSION["error"];
-                        echo "<div class='text-center alert alert-danger p-1 col-md-5 mx-auto mt-2 mt-md-0' role='alert'>$error</div>";
+                        echo "<div class='text-center alert alert-danger p-1 col-10 mt-2' role='alert'>$error</div>";
                         }
                         if(isset($_SESSION["success"])){
                         $success = $_SESSION["success"];
-                        echo "<div class='text-center alert alert-success p-1 col-md-5 mx-auto mt-2 mt-md-0' role='alert'>$success</div>";
+                        echo "<div class='text-center alert alert-success p-1 col-10 mt-2' role='alert'>$success</div>";
                         }
                     ?>
                 </div>
