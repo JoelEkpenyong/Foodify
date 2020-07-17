@@ -23,7 +23,7 @@
 </head>
 <body>
     <!-- loader -->
-    <div id="loader-container">
+    <!-- <div id="loader-container">
         <h3 class="loader-text">a CHEF on your mobile . . .</h3>
         <div class="loader">
             <div></div>
@@ -32,7 +32,7 @@
             <div></div>
             <div></div>
         </div>
-    </div>
+    </div> -->
    
    <!-- header starts -->
     <header>
