@@ -79,10 +79,6 @@
                         $error = $_SESSION["error"];
                         echo "<div class='text-center alert alert-danger p-1 col-10 mt-2' role='alert'>$error</div>";
                         }
-                        if(isset($_SESSION["success"])){
-                        $success = $_SESSION["success"];
-                        echo "<div class='text-center alert alert-success p-1 col-10 mt-2' role='alert'>$success</div>";
-                        }
                     ?>
                 </div>
             </div>
