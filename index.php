@@ -23,7 +23,7 @@
 </head>
 <body>
     <!-- loader -->
-    <!-- <div id="loader-container">
+    <div id="loader-container">
         <h3 class="loader-text">a CHEF on your mobile . . .</h3>
         <div class="loader">
             <div></div>
@@ -32,7 +32,7 @@
             <div></div>
             <div></div>
         </div>
-    </div> -->
+    </div>
    
    <!-- header starts -->
     <header>
@@ -49,7 +49,7 @@
     <!-- hero section -->
     <section id="hero" class="">
         <div class="row h-100 boxed">
-            <div id="hero-text" class="text-field pb-5 pb-md-0 px-0 pr-4 col-12 col-md-7 d-flex flex-column justify-content-center align-items-start animate__animated animate__fadeIn animate__delay-2s">
+            <div id="hero-text" class="text-field pb-5 pb-md-0 px-0 pr-4 col-12 col-md-7 d-flex flex-column justify-content-center align-items-start">
                 <div>
                     <h2 class="hero-header pb-2">Name any meal in seconds </h2>
                     <p>Identify meals around you, get awesome recipes and find out possible dishes with available food items.</p>
@@ -82,7 +82,7 @@
                     ?>
                 </div>
             </div>
-            <div class="col-12 col-md-5 pt-5 pt-md-0 px-0 img-wrapper d-flex justify-content-center justify-content-md-end align-items-center animate__animated animate__fadeIn">
+            <div class="col-12 col-md-5 pt-5 pt-md-0 px-0 img-wrapper d-flex justify-content-center justify-content-md-end align-items-center">
                 <img id="hero-img" class="phone-1 img-fluid animate__animated animate__slideInDown animate__slower" src="./assets/imgs/svgs/Group 150.svg" alt="" >
             </div>
         </div>
