@@ -169,7 +169,7 @@
             </div>
         </div>
             <div class="coming-soon py-5">
-                <p class="mx-auto mx-sm-0 w-75 w-sm-100 m-0 text-center">Coming soon for Android and iOS devices</p>
+                <p class="mx-auto mx-sm-0 w-75 w-sm-100 text-center">Coming soon for Android and iOS devices</p>
             </div>
             <div class="footer-nav pt-3 pb-0">
                 <nav class="nav justify-content-center pb-2">
