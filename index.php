@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>Foodify</title>
 </head>
-<body>
+<body> 
     <!-- loader -->
     <div id="loader-container">
         <h3 class="loader-text">a CHEF on your mobile . . .</h3>
@@ -90,7 +90,8 @@
 
     <!-- screen sections -->
     <section id="sec-1">
-        <div class="img-wrapper d-flex" style="background-image: url(./assets/imgs/img-5.png);">
+        <div class="position-relative">
+            <div class="img-wrapper" style="background-image: url(./assets/imgs/img-5.png); position:absolute; opacity:.7;"></div>
             <div class="boxed row">
                 <div class="col-6 px-0 px-md-2 d-flex justify-content-start justify-content-md-center">
                     <img class="phone" src="./assets/imgs/svgs/Group 151.svg" alt="" srcset="" data-aos="fade-left" data-aos-easing="ease-in-out-sine" data-aos-once="true">
@@ -105,7 +106,8 @@
         </div>
     </section>
     <section id="sec-2">
-        <div class="img-wrapper d-flex" style="background-image: url(./assets/imgs/img-2.png);">
+        <div class="position-relative">
+            <div class="img-wrapper" style="background-image: url(./assets/imgs/img-2.png); position:absolute; opacity:.7;"></div>
             <div class="boxed row">
                 <div class="col-6 order-2 px-0 px-md-2 d-flex justify-content-end justify-content-md-center">
                     <img class="phone" src="./assets/imgs/svgs/Group 144.svg" alt="" srcset="" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-once="true">
@@ -121,7 +123,8 @@
         </div>
     </section>
     <section id="sec-3">
-        <div class="img-wrapper d-flex" style="background-image: url(./assets/imgs/img-3.png);">
+        <div class="position-relative">
+            <div class="img-wrapper" style="background-image: url(./assets/imgs/img-3.png); position:absolute; opacity:.7;"></div>
             <div class="boxed row">
                 <div class="col-6 px-0 px-md-2 d-flex justify-content-start justify-content-md-center">
                     <img class="phone" src="./assets/imgs/svgs/Group 149.svg" alt="" srcset="" data-aos="fade-left" data-aos-easing="ease-in-out-sine" data-aos-once="true">
@@ -136,7 +139,8 @@
         </div>
     </section>
     <section id="sec-4">
-        <div class="img-wrapper d-flex" style="background-image: url(./assets/imgs/img-4.png);">
+        <div class="position-relative">
+            <div class="img-wrapper" style="background-image: url(./assets/imgs/img-4.png); position:absolute; opacity:.7;"></div>
             <div class="boxed row">
                 <div class="col-6 order-2 px-0 px-md-2 d-flex justify-content-end justify-content-md-center">
                     <img class="phone" src="./assets/imgs/svgs/Group 148.svg" alt="" srcset="" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-once="true">
@@ -169,7 +173,7 @@
             </div>
         </div>
             <div class="coming-soon py-5">
-                <p class="mx-auto mx-sm-0 w-75 w-sm-100 text-center">Coming soon for Android and iOS devices</p>
+                <p class="mx-0 mx-sm-auto w-75 w-sm-100 text-center">Coming soon for Android and iOS devices</p>
             </div>
             <div class="footer-nav pt-3 pb-0">
                 <nav class="nav justify-content-center pb-2">
