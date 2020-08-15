@@ -83,7 +83,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-5 pt-5 pt-md-0 px-0 img-wrapper d-flex justify-content-center justify-content-md-end align-items-center">
-                <img id="hero-img" class="phone-1 img-fluid animate__animated animate__slideInDown animate__slower" src="./assets/imgs/svgs/Group 150.svg" alt="" >
+                <img id="hero-img" class="phone-1 img-fluid" src="./assets/imgs/svgs/Group 150.svg" alt="" >
             </div>
         </div>
     </section>
